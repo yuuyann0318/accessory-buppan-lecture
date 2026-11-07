@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#122520">
+<title>稼いでいる人の共通点｜講義スライド</title>
+<meta name="description" content="アクセサリー物販マインドセット講義。全22枚のスライド。">
+<link rel="stylesheet" href="style.css"><link rel="preload" as="image" href="assets/01.png">
+</head>
+<body>
+<div class="presentation" id="presentation">
+<header class="toolbar"><div class="brand"><span class="dot"></span><h1>稼いでいる人の共通点</h1></div><div class="tools"><button id="gallery-open" aria-haspopup="dialog" title="スライド一覧 (G)">一覧</button><a href="lecture.pdf" download="稼いでいる人の共通点_22枚.pdf" title="全22枚のPDFを保存">PDF</a><button id="fullscreen" aria-label="全画面にする" title="全画面 (F)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></svg><span class="full-label">全画面</span></button></div></header>
+<main class="stage" id="stage" aria-label="講義スライド" tabindex="0">
+<img id="slide" src="assets/01.png" alt="1枚目：稼いでいる人の共通点" draggable="false" fetchpriority="high">
+<button class="edge prev" id="previous-edge" aria-label="前のスライド"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button>
+<button class="edge next" id="next-edge" aria-label="次のスライド"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+<div id="load-error" hidden>画像を読み込めませんでした。<button id="reload-image">再読み込み</button></div>
+</main>
+<footer class="controls"><div class="navigation"><button id="previous" aria-label="前のスライド"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button><output id="count" aria-live="polite" aria-atomic="true">1 / 22</output><button id="next" aria-label="次のスライド"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></div><input type="range" id="progress" min="1" max="22" value="1" aria-label="スライド番号"><div class="hint">左右にスワイプ <span>／ ← → キー</span></div></footer>
+<div class="toast" id="toast" role="status" hidden></div>
+<dialog id="gallery" aria-labelledby="gallery-title"><div class="gallery-header"><h2 id="gallery-title">スライド一覧</h2><button id="gallery-close" aria-label="一覧を閉じる">閉じる</button></div><div id="thumbnails" class="thumbnails"></div></dialog>
+</div>
+<script src="slides.js"></script><script src="app.js"></script>
+</body></html>
